@@ -21,7 +21,7 @@
 			<th>Published Date</th>
 			<th>Actions</th>
 		</tr>
-		<% Book.all.each do |book| %>
+		<% @books.each do |book| %>
 		<tr>
 			<td><%= book.title %></td>
 			<td class="center"><%= book.author %></td>
